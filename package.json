@@ -2,7 +2,7 @@
   "name": "license-microservice",
   "version": "1.0.0",
   "description": "Dynamic License Microservice for Custom Applications using Discord.",
-  "author": "omnicells <67805547+omnicells@users.noreply.github.com>",
+  "author": "yonzay",
   "license": "ISC",
   "devDependencies": {
     "@types/mongodb": "^3.6.17",
