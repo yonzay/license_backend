@@ -1,0 +1,6 @@
+package-lock.json
+company.json
+node_modules
+.vscode
+yarn-error.log
+*.js

@@ -1,0 +1,22 @@
+{
+  "name": "license-microservice",
+  "version": "1.0.0",
+  "description": "Dynamic License Microservice for Custom Applications using Discord.",
+  "author": "omnicells <67805547+omnicells@users.noreply.github.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongodb": "^3.6.17",
+    "@types/node-rsa": "^1.1.0",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "mongodb": "^3.6.9",
+    "node-rsa": "^1.1.1",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v19.2.0",
+    "uuid": "^8.3.2"
+  }
+}
