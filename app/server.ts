@@ -10,7 +10,7 @@ class Server {
         management_access_key: '3d5cf0bbd489434c42f253eee11286c9c4554570941cdc25c19912bfa70be14d',
         management_route_key: '43fcad86ef8adf9db061dc18620046beff07b5d1f13ab028887f34764de86f35'
     });
-    public static discord: Discord = new Discord('ODI5MjMxNDA1OTUxMjIxNzcx.YG1H7Q.hDesDeOOGCAv8NO5zQxzaWMvFRQ');
+    public static discord: Discord = new Discord('Discord API Token Here');
     private static router: TemplatedApp = uWebSockets.App();
     public static new = (): void => {
         Server.router.any(`/api/${ Server.config.server_version }/:authority/:path`, Routes.director.handler);
